@@ -1,4 +1,8 @@
 {
+  "author": {
+    "name": "Joseph villalba", 
+    "email":"jhosephvillalba@gmail.com"
+  },
   "name": "calltraffic",
   "version": "0.1.0",
   "private": true,
