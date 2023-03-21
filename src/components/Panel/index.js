@@ -1,5 +1,7 @@
 import style from "./style.module.css";
-import LogoCalltraffic from "../../svgcomponets/logoCalltraffic";
+// import LogoCalltraffic from "../../svgcomponets/logoCalltraffic";
+import Logo from "./logo.svg";
+
 import { Link, Outlet } from "react-router-dom";
 //icons
 import Logout from "../../icons/loguot";
@@ -14,7 +16,7 @@ const Panel = (props) => {
       <div className={style.table}>
         <div className={style.sidebar}>
           <div className={style.sidebar__wrapper}>
-            <LogoCalltraffic />
+            <img src={Logo} alt="logo" width={110}/>
             <div className={style.user}>
               <figure className={style.user__image_container}>
                 <img

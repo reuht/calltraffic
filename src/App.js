@@ -1,7 +1,6 @@
-
 // import './App.css';
 import Login from './components/Login';
-import { Routes, Route, Navigate} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Companies from "./components/Companies";
 import Company from "./components/Company"; 
 import Panel from './components/Panel';

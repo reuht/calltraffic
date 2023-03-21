@@ -10,6 +10,11 @@
     /* background-color: aqua; */
 }
 
+.form__title_wrapper{
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+}
+
 .form__title {
     margin: 0;
     color: #fff;
@@ -75,6 +80,7 @@
 .form__wrapper {
     display: flex;
     flex-direction: column;
+    /* align-items: flex-start; */
     gap: 1.7rem;
 }
 
@@ -84,14 +90,18 @@
 }
 
 .form__input {
-
+    color: #fff;
     width: 24.6rem;
     height: 4.3rem;
     border: none;
     padding-left: 1rem;
     background: #000000;
-    /* border: 1px solid #2CE152; */
     border-radius: 0.6rem;
+}
+
+.form__input:focus {
+
+    outline: 1px solid #2CE152;
 }
 
 .form__textarea {
@@ -101,6 +111,10 @@
     background: #000000;
     border: 0.5px solid #232323;
     border-radius: 6px;
+}
+
+.form__textarea:focus, .form__textarea_referent:focus{
+    outline: 1px solid #2CE152;
 }
 
 .form__textarea_referent {
@@ -119,6 +133,8 @@
     gap: 1.7rem;
 }
 
+
+
 .form__col_button {
     display: flex;
     flex-direction: column;
@@ -129,8 +145,10 @@
 
     width: 14.6rem;
     height: 4.3rem;
-
+    border: none;
 
     background: #2CE152;
     border-radius: 6px;
+    cursor: pointer;
 }
+
