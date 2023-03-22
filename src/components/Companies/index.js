@@ -38,7 +38,7 @@ const Companies = (props) =>{
             <div className={style.companies__container_cards}>
                 <div className={style.companies__cards}>
                     {
-                        companies.map((e, index) => <CardCompanie key={index} url={"https://www.ejemplos.co/wp-content/uploads/2015/11/Logo-Adidas.jpg"}/>)
+                        companies.map((e, index) => <CardCompanie key={index} url={"https://pbs.twimg.com/profile_images/830660512304226304/jzA-Vg27_400x400.jpg"}/>)
                     }
                 </div>
             </div>
