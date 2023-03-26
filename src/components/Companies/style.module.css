@@ -67,7 +67,7 @@
     /* background-color: #2CE152; */
     background-color: #3f3f3f;
     border-radius: 10px;
-    border: 2px solid #000;
+    border: 0.4px solid #000;
 }
 
 .companies__container_cards::-webkit-scrollbar-track {
